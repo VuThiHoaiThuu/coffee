@@ -1,0 +1,14 @@
+2023-12-05T15:36:19+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Table 'coffee.wp_actionscheduler_actions' doesn't exist in C:\xampp\htdocs\coffee\wp-content\plugins\mailpoet\vendor\woocommerce\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php:58
+Stack trace:
+#0 C:\xampp\htdocs\coffee\wp-content\plugins\mailpoet\vendor\woocommerce\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php(21): ActionScheduler_DBStore->save_action_to_db(Object(ActionScheduler_Action), NULL, false)
+#1 C:\xampp\htdocs\coffee\wp-content\plugins\mailpoet\vendor\woocommerce\action-scheduler\classes\ActionScheduler_ActionFactory.php(124): ActionScheduler_DBStore->save_action(Object(ActionScheduler_Action))
+#2 C:\xampp\htdocs\coffee\wp-content\plugins\mailpoet\vendor\woocommerce\action-scheduler\classes\ActionScheduler_ActionFactory.php(120): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 C:\xampp\htdocs\coffee\wp-content\plugins\mailpoet\vendor\woocommerce\action-scheduler\functions.php(65): ActionScheduler_ActionFactory->create(Array)
+#4 C:\xampp\htdocs\coffee\wp-content\plugins\pinterest-for-woocommerce\src\Heartbeat.php(62): as_schedule_recurring_action(1701790579, 86400, 'pinterest_for_w...', Array, 'pinterest-for-w...')
+#5 C:\xampp\htdocs\coffee\wp-includes\class-wp-hook.php(324): Automattic\WooCommerce\Pinterest\Heartbeat->schedule_events('')
+#6 C:\xampp\htdocs\coffee\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 C:\xampp\htdocs\coffee\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\coffee\wp-admin\admin-ajax.php(45): do_action('admin_init')
+#9 {main}
+  thrown in C:\xampp\htdocs\coffee\wp-content\plugins\mailpoet\vendor\woocommerce\action-scheduler\classes\data-stores\ActionScheduler_DBStore.php on line 58
+
