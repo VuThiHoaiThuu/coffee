@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2023-08-29T06:28:26+00:00\n"
-"PO-Revision-Date: 2023-12-06 07:33+0000\n"
+"PO-Revision-Date: 2023-12-07 10:11+0000\n"
 "X-Generator: Loco https://localise.biz/\n"
 "X-Domain: orchid-store\n"
 "Language: vi\n"
@@ -1865,7 +1865,7 @@ msgstr ""
 
 #: woocommerce/cart/cart.php:31 woocommerce/cart/cart.php:215
 msgid "Remove item"
-msgstr ""
+msgstr "Xóa khỏi giỏ hàng"
 
 #: woocommerce/cart/cart.php:32 woocommerce/cart/cart.php:216
 msgid "Thumbnail image"
@@ -1874,7 +1874,7 @@ msgstr ""
 #: woocommerce/cart/cart.php:33 woocommerce/cart/cart.php:88
 #: woocommerce/cart/cart.php:217 woocommerce/cart/cart.php:272
 msgid "Product"
-msgstr ""
+msgstr "Sản phẩm"
 
 #: woocommerce/cart/cart.php:34 woocommerce/cart/cart.php:122
 #: woocommerce/cart/cart.php:218 woocommerce/cart/cart.php:306
